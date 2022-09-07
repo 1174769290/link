@@ -1,0 +1,4 @@
+/home/junjie/clion/CLion-2021.1.3/clion-2021.1.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/junjie/桌面/计算器
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/junjie/桌面/计算器/cmake-build-debug
