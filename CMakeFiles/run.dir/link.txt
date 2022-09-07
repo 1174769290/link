@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/run.dir/run_autogen/mocs_compilation.cpp.o CMakeFiles/run.dir/main.cpp.o CMakeFiles/run.dir/mainwind.cpp.o CMakeFiles/run.dir/sanjiao.cpp.o -o run  -Wl,-rpath,/opt/Qt5.12.3/5.12.3/gcc_64/lib /opt/Qt5.12.3/5.12.3/gcc_64/lib/libQt5Widgets.so.5.12.3 /opt/Qt5.12.3/5.12.3/gcc_64/lib/libQt5Gui.so.5.12.3 /opt/Qt5.12.3/5.12.3/gcc_64/lib/libQt5Core.so.5.12.3 
