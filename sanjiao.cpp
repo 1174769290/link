@@ -11,7 +11,8 @@
 #include "QErrorMessage"
 
 using namespace std;
-
+//三次测试
+//四次测试
 sanjiao::sanjiao(QWidget *parent) :
     QWidget(parent), ui(new Ui::sanjiao) {
     ui->setupUi(this);

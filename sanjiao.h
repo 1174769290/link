@@ -44,7 +44,8 @@ public:
      void lineEdit();
      void pushButton();
 //     void lineEdit_8();
-
+//测试smartgit
+//二次测试
 private:
     Ui::sanjiao *ui;
     struct number{
