@@ -52,18 +52,6 @@ error.h
 QErrorMessage
 /home/junjie/桌面/计算器/cmake-build-debug/QErrorMessage
 
-/home/junjie/桌面/计算器/cmake-build-debug/sanjiao.cpp
-sanjiao.h
-/home/junjie/桌面/计算器/cmake-build-debug/sanjiao.h
-ui_sanjiao.h
-/home/junjie/桌面/计算器/cmake-build-debug/ui_sanjiao.h
-cmath
--
-iostream
--
-QErrorMessage
-/home/junjie/桌面/计算器/cmake-build-debug/QErrorMessage
-
 /home/junjie/桌面/计算器/cmake-build-debug/sanjiao.h
 mainwind.h
 /home/junjie/桌面/计算器/cmake-build-debug/mainwind.h
@@ -103,6 +91,8 @@ error.h
 /home/junjie/桌面/计算器/cmake-build-debug/error.h
 ctype.h
 -
+ios
+/home/junjie/桌面/计算器/cmake-build-debug/ios
 
 /home/junjie/桌面/计算器/cmake-build-debug/ui_mainwind.h
 QtCore/QLocale
@@ -122,22 +112,6 @@ QtWidgets/QPushButton
 QtWidgets/QTextEdit
 -
 QtWidgets/QToolBar
--
-QtWidgets/QWidget
--
-
-/home/junjie/桌面/计算器/cmake-build-debug/ui_sanjiao.h
-QtCore/QVariant
--
-QtWidgets/QApplication
--
-QtWidgets/QLabel
--
-QtWidgets/QLineEdit
--
-QtWidgets/QPushButton
--
-QtWidgets/QTextEdit
 -
 QtWidgets/QWidget
 -
