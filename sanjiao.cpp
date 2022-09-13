@@ -24,14 +24,14 @@ void sanjiao::pushButton() {
     str.dx = ui->lineEdit->text();
     if (str.dx>='a'&&str.dx<='z'){
         QErrorMessage *myerrorDlg = new QErrorMessage(this);
-        myerrorDlg->setWindowTitle(QString::fromLocal8Bit("错误信息对话框"));
+        myerrorDlg->setWindowTitle(QString::fromLocal8Bit("错误信息"));
         //显示非模态对话框
         myerrorDlg->showMessage(QString::fromLocal8Bit("底出现输出英文，请检查输入是否正常"));
     }
     if (str.dx.isEmpty()) {
 
         QErrorMessage *myerrorDlg = new QErrorMessage(this);
-        myerrorDlg->setWindowTitle(QString::fromLocal8Bit("错误信息对话框"));
+        myerrorDlg->setWindowTitle(QString::fromLocal8Bit("错误信息"));
         //显示非模态对话框；
         myerrorDlg->showMessage(QString::fromLocal8Bit("底出现输出空白，请检查输入是否正常"));
     } else{};
@@ -39,14 +39,14 @@ void sanjiao::pushButton() {
     str.fx = ui->lineEdit_2->text();
     if (str.fx>='a'&&str.dx<='z') {
         QErrorMessage *myerrorDlg = new QErrorMessage(this);
-        myerrorDlg->setWindowTitle(QString::fromLocal8Bit("错误信息对话框"));
+        myerrorDlg->setWindowTitle(QString::fromLocal8Bit("错误信息"));
         //显示非模态对话框；
         myerrorDlg->showMessage(QString::fromLocal8Bit("高出现输出英文，请检查输入是否正常"));
     }
     if (str.fx.isEmpty())
     {
         QErrorMessage* myerrorDlg=new QErrorMessage(this);
-        myerrorDlg->setWindowTitle(QString::fromLocal8Bit("错误信息对话框"));
+        myerrorDlg->setWindowTitle(QString::fromLocal8Bit("错误信息"));
         //显示非模态对话框；
         myerrorDlg->showMessage(QString::fromLocal8Bit("高出现输出非数字，请检查输入是否正常"));
 

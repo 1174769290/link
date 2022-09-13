@@ -7,11 +7,6 @@
 #include "ui_mainwind.h"
 #include <cmath>
 
-
-
-
-using namespace std;
-
 mainwind::mainwind(QWidget *parent) :
         QMainWindow(parent), ui(new Ui::mainwind) {
 
@@ -30,7 +25,7 @@ void mainwind::pushButtun() {
     number1 = ui->hfov->text();
     if (number1>='a'&&number1 <='z'){
         QErrorMessage* myerrorDlg=new QErrorMessage(this);
-        myerrorDlg->setWindowTitle(QString::fromLocal8Bit("错误信息对话框"));
+        myerrorDlg->setWindowTitle(QString::fromLocal8Bit("错误信息"));
         //显示非模态对话框；
         myerrorDlg->showMessage(QString::fromLocal8Bit("视场角度出现输出英文，请检查输入是否正常"));
 
@@ -38,7 +33,7 @@ void mainwind::pushButtun() {
     else if (number1.isEmpty())
     {
         QErrorMessage* myerrorDlg=new QErrorMessage(this);
-        myerrorDlg->setWindowTitle(QString::fromLocal8Bit("错误信息对话框"));
+        myerrorDlg->setWindowTitle(QString::fromLocal8Bit("错误信息"));
         //显示非模态对话框；
         myerrorDlg->showMessage(QString::fromLocal8Bit("视场角度出现输出空白，请检查输入是否正常"));
 
@@ -47,7 +42,7 @@ void mainwind::pushButtun() {
     number2 = ui->dis->text();
     if (number2>='a'&&number1 <='z'){
         QErrorMessage* myerrorDlg=new QErrorMessage(this);
-        myerrorDlg->setWindowTitle(QString::fromLocal8Bit("错误信息对话框"));
+        myerrorDlg->setWindowTitle(QString::fromLocal8Bit("错误信息"));
         //显示非模态对话框；
         myerrorDlg->showMessage(QString::fromLocal8Bit("视差出现输出英文，请检查输入是否正常"));
 
@@ -55,7 +50,7 @@ void mainwind::pushButtun() {
     else if (number2.isEmpty())
     {
         QErrorMessage* myerrorDlg=new QErrorMessage(this);
-        myerrorDlg->setWindowTitle(QString::fromLocal8Bit("错误信息对话框"));
+        myerrorDlg->setWindowTitle(QString::fromLocal8Bit("错误信息"));
         //显示非模态对话框；
         myerrorDlg->showMessage(QString::fromLocal8Bit("视差出现输出空白，请检查输入是否正常"));
 
@@ -64,7 +59,7 @@ void mainwind::pushButtun() {
     number3 = ui->baseline->text();
     if (number3>='a'&&number3 <='z'){
         QErrorMessage* myerrorDlg=new QErrorMessage(this);
-        myerrorDlg->setWindowTitle(QString::fromLocal8Bit("错误信息对话框"));
+        myerrorDlg->setWindowTitle(QString::fromLocal8Bit("错误信息"));
         //显示非模态对话框；
         myerrorDlg->showMessage(QString::fromLocal8Bit("基线出现输出英文，请检查输入是否正常"));
 
@@ -72,7 +67,7 @@ void mainwind::pushButtun() {
     else if (number3.isEmpty())
     {
         QErrorMessage* myerrorDlg=new QErrorMessage(this);
-        myerrorDlg->setWindowTitle(QString::fromLocal8Bit("错误信息对话框"));
+        myerrorDlg->setWindowTitle(QString::fromLocal8Bit("错误信息"));
         //显示非模态对话框；
         myerrorDlg->showMessage(QString::fromLocal8Bit("基线出现输出空白，请检查输入是否正常"));
 
@@ -81,7 +76,7 @@ void mainwind::pushButtun() {
     number4 = ui->errordis->text();
     if (number4>='a'&&number4 <='z'){
         QErrorMessage* myerrorDlg=new QErrorMessage(this);
-        myerrorDlg->setWindowTitle(QString::fromLocal8Bit("错误信息对话框"));
+        myerrorDlg->setWindowTitle(QString::fromLocal8Bit("错误信息"));
         //显示非模态对话框；
         myerrorDlg->showMessage(QString::fromLocal8Bit("误差出现输出英文，请检查输入是否正常"));
 
@@ -90,7 +85,7 @@ void mainwind::pushButtun() {
     if (number4.isEmpty())
     {
         QErrorMessage* myerrorDlg=new QErrorMessage(this);
-        myerrorDlg->setWindowTitle(QString::fromLocal8Bit("错误信息对话框"));
+        myerrorDlg->setWindowTitle(QString::fromLocal8Bit("错误信息"));
         //显示非模态对话框；
         myerrorDlg->showMessage(QString::fromLocal8Bit("误差出现输出空白，请检查输入是否正常"));
 
